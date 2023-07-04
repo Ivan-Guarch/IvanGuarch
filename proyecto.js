@@ -1,10 +1,13 @@
-/*
-let numero0 = parseInt(prompt("Dime un Numero entre 50 y 60"))
+function conversion() {
+    let valor = parseInt(prompt("Ingrese Monto a Convertir: "));
+    let dolar = 37.42;
+    let resultado = 0;
 
-if ((numero0>=50) && (numero0<=60)){
-    alert("Tu numero cumple los requisitos")
+    if (valor => 1) {
+        resultado = valor / dolar;
+        alert("El Cambio de Pesos(UYU) a Dólar es: " + resultado);
+       
+    } else {
+        alert("No Cumple los Requisitos para Concretar la Conversion")
+    }
 }
-else {
-    alert("Tu numero no cumple con los requisitos")
-}
-*/
